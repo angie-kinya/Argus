@@ -39,7 +39,7 @@ function App() {
     setError('');
 
     try {
-      const response = await axios.post('http://localhost:5000/review', { code, language });
+      const response = await axios.post('https://argus-backend-hxgp.onrender.com/review', { code, language });
       const newSuggestion = response.data.suggestions;
       setSuggestions(newSuggestion);
 
