@@ -129,5 +129,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or feedback, feel free to reach out:
 
-- **Your Name** - [angiekinya670@gmail.com](mailto:your.email@example.com)
+- **Email** - [angiekinya670@gmail.com](mailto:your.email@example.com)
 - **Project Link**: [https://argus-assistant.vercel.app/](https://argus-assistant.vercel.app/)
