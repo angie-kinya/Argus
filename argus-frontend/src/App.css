@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* textarea {
+  width: 80%;
+  max-width: 800px;
+  font-family: monospace;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+} */
+
+.code-input {
+  margin-bottom: 20px;
+}
+
+.language-selector {
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.ace_editor {
+  margin: 0 auto 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+pre {
+  text-align: left;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  color: #000000;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+.history-section {
+  margin-top: 40px;
+  text-align: left;
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.history-item {
+  background-color: #2d2d2d;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.clear-history-button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clear-history-button:hover {
+  background-color: #cc0000;
+}
+
+.dark-theme {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.theme-toggle-button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.theme-toggle-button:hover {
+  background-color: #0056b3;
+}
