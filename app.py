@@ -11,6 +11,10 @@ CORS(app)
 # Set up OpenAI API key
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))  # Default to 8000 for render
+    app.run(host="0.0.0.0", port=port)
+
 @app.route('/review', methods=['POST'])
 def review_code():
     data = request.json
